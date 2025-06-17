@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'https://weather-dashboard-production-a5fc.up.railway.app';
 
   const fetchWeather = async (e) => {
     e.preventDefault();
